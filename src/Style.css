@@ -1,0 +1,33 @@
+.container {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    -moz-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+}
+.fontStyle {
+    font-size: 10px;
+    color: grey;
+}
+.inputStyle {
+    width: 150px;
+}
+.buttonStyle {
+    padding: 0.4rem 2.5rem;
+    color: grey;
+    position: center;
+}
+.idealPadding {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.borderSection {
+    width: 80%;
+    color: grey;
+}
+
+.paddingText {
+    float: right;
+}
