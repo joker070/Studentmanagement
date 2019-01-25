@@ -48,6 +48,8 @@ export function createServiceAction(type, event) {
     data
   });
   actionCreator.type = actionType;
+  console.log('23', actionCreator);
+  console.log('2', actionCreator.data);
   return actionCreator;
 }
 

@@ -2,7 +2,7 @@ import { createStore, applyMiddleware } from 'redux'
 import createSagaMiddleware from 'redux-saga'
 
 import reducer from './reducers'
-import mySaga from './sagas'
+import rootSaga from './sagas/index.js'
 
 // create the saga middleware
 const sagaMiddleware = createSagaMiddleware()
@@ -13,6 +13,6 @@ export const store = createStore(
 )
 
 // then run the saga
-sagaMiddleware.run(mySaga)
+sagaMiddleware.run(rootSaga)
 
 // render the application

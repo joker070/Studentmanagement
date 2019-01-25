@@ -31,3 +31,11 @@
 .paddingText {
     float: right;
 }
+
+.loginElement {
+    width: 25%;
+}
+
+.tColor {
+    color: white;
+}

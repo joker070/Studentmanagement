@@ -2,7 +2,7 @@ import React from 'react';
 import { Provider } from 'react-redux';
 
 import { store } from './store';
-
+import 'antd/dist/antd.css';
 import Router from './routes.js';
 import Login from './Login';
 
